@@ -1,12 +1,8 @@
-let elementsInArray = 0;
 
 function getLength(array) {
-    elementsInArray = 0; // Reset global value on each run
-    console.log(calculateLength(array));
-}
-
-function calculateLength(array, depth = 1) {
-    return array.flat(Infinity).length;
+    const length = array.flat(Infinity).length;
+    console.log(length);
+    return length;
 }
 
 console.log("%c\nLength of a Nested Array", "color:green; font-size: 1rem");
