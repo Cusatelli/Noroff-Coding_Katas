@@ -14,12 +14,83 @@
 6. [Contact](#contact)
 
 # Katas
-1. [Basketball Points](/src/Basketball%20Points)
-2. [Double letter Word splitter](/src/Double%20letter%20Word%20splitter)
-3. [The Classic FizzBuzz](/src/Classic%20FizzBuzz)
-4. [Length of a Nested Array](/src/Length%20of%20a%20Nested%20Array)
-5. [Choose your own adventure](/src/Choose%20your%20own%20adventure)
-6. [Game of Thrones: Character Titles](/src/Game%20of%20Thrones%20-%20Character%20Titles)
+<table>
+  <tr align="left">
+    <th>Kata</th>
+    <th>Name</th>
+    <th>Description</th>
+  </tr>
+  <tr align="left">
+    <td>1</td>
+    <td><a href="/src/Basketball%20Points">Basketball Points</a></td>
+    <td>
+      You are counting points for a basketball game, given the amount of 2-pointers scored and 3-pointers scored, find the final points for the team and return that value.
+    </td>
+  </tr>
+  <tr align="left">
+    <td>2</td>
+    <td><a href="/src/Double%20letter%20Word%20splitter">Double letter Word splitter</a></td>
+    <td>
+      Write a function called splitOnDoubleLetter() that receives a word, of type string, as an argument. The function should split the word where any double letter is found and return an array of the split word. If no repeated letters are found, simply return an empty array
+    </td>
+  </tr>
+  <tr align="left">
+    <td>3</td>
+    <td><a href="/src/Classic%20FizzBuzz">The Classic FizzBuzz</a></td>
+    <td>
+      Write a short program that prints each number from 1 to n on a new line.<br/>
+      For each multiple of 3, print <strong>"Fizz"</strong> instead of the number.<br/>
+      For each multiple of 5, print <strong>"Buzz"</strong> instead of the number.<br/>
+      For numbers which are multiples of both 3 and 5, print <strong>"FizzBuzz"</strong> instead of the number.
+    </td>
+  </tr>
+  <tr align="left">
+    <td>4</td>
+    <td><a href="/src/Length%20of%20a%20Nested%20Array">Length of a Nested Array</a></td>
+    <td>
+      The .length property on an array will return the number of elements in the array. For example, the array below contains 2 elements:<br/>
+      [1, [2, 3]]<br/><br/>
+      // 2 elements, number 1 and array [2, 3]<br/>
+      Suppose we instead wanted to know the total number of non-nested items in the nested array. In the above case, [1, [2, 3]] contains 3 non-nested items, 1, 2 and 3.<br/>
+      Write a function that returns the total number of non-nested items in a nested array.
+    </td>
+  </tr>
+  <tr align="left">
+    <td>5</td>
+    <td><a href="/src/Choose%20your%20own%20adventure">Choose your own adventure</a></td>
+    <td>
+      The sum of the primes below 10 is 2 + 3 + 5 + 7 = 17.<br/>
+      Find the sum of all the primes below two million.<br/><br/>
+      Found here: <a href="https://projecteuler.net/problem=10">https://projecteuler.net/problem=10</a>
+    </td>
+  </tr>
+  <tr align="left">
+    <td>6</td>
+    <td><a href="/src/Game%20of%20Thrones%20-%20Character%20Titles">Game of Thrones: Character Titles</a></td>
+    <td>
+      Write a function that takes a string and returns a string with the correct case for character titles in the Game of Thrones series.<br/>
+      <ul>
+        <li>The words and, the, of and in should be lowercase.</li>
+        <li>All other words should have the first character as uppercase and the rest lowercase.</li>
+        <li>All commas must always be followed by a single space.</li>
+        <li>All titles must end with a period.</li>
+      </ul><br/>
+      Examples<br/>
+      <code>correctTitle("jOn SnoW, kINg IN thE noRth")</code> ➞ "Jon Snow, King in the North."<br/>
+      <code>correctTitle("sansa stark,lady of winterfell.")</code> ➞ "Sansa Stark, Lady of Winterfell."<br/>
+      <code>correctTitle("TYRION LANNISTER, HAND OF THE QUEEN.")</code> ➞ "Tyrion Lannister, Hand of the Queen."<br/><br/>
+      Notes
+      <ul>
+        <li>Punctuation and spaces must remain in their original positions.</li>
+        <li>All commas must be followed by a single space.</li>
+        <li>Titles must end with a period.</li>
+        <li>Hyphenated words are considered separate words.</li>
+        <li>Be careful with words that contain and, the, of or in.</li>
+      </ul>
+    </td>
+  </tr>
+</table>
+  
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
