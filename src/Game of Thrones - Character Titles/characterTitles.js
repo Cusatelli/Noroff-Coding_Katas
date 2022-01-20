@@ -9,7 +9,7 @@ function correctTitle(incorrectTitle) {
     const wordList = incorrectTitle.split(' ');
     let correctTitleStr = "";
     
-    wordList.forEach(word => {
+    for(let word of wordList) {
         word = word.toLowerCase(); // Lower case all words
         const hasComma = word.includes(','); // Avoid chacking multiple times.
         if(word !== "and" && word !== "the" && word !== "of" && word !== "in") {
@@ -32,7 +32,7 @@ function correctTitle(incorrectTitle) {
         if(correctTitleStr.includes("  ")) {
             correctTitleStr = correctTitleStr.replace("  ", " ");
         }
-    });
+    }
 
     // Remove last space and replace with .
     correctTitleStr = correctTitleStr.substring(0, correctTitleStr.length - 1);
