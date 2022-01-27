@@ -18,6 +18,7 @@ function ticTacToe(array) {
             console.log("Winner: " + array[0][0]);
             return array[0][0];
         }
+        
         // / winner check
         if (array[0][2] === array[1][1] && array[0][2] === array[2][0]) {
             console.log("Winner: " + array[0][2]);
