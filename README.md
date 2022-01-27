@@ -127,7 +127,7 @@
   </tr>
   <tr align="left">
     <td>6</td>
-    <td><a href="/src/Tic%20Tac%20Toe">Tic Tac Toe</a></td>
+    <td><a href="/src/TicTacToe">Tic Tac Toe</a></td>
     <td>
       Given a 3x3 matrix of a completed tic-tac-toe game, create a function that returns whether the game is a win for "X", "O", or a "Draw", where "X" and "O" 
       represent themselves on the matrix, and "E" represents an empty spot.<br/><br/>
