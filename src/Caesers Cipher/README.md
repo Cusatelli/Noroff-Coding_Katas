@@ -19,6 +19,6 @@ Examples<br/>
 // z -> b
 </pre><br/>
 <code>caesarCipher("Always-Look-on-the-Bright-Side-of-Life", 5) ➞ "Fqbfdx-Qttp-ts-ymj-Gwnlmy-Xnij-tk-Qnkj"</code><br/>
-<code>caesarCipher("A friend in need is a friend indeed", 20) ➞ "U zlcyhx ch hyyx cm u zlcyhx chxyyx"</code><br/>
+<code>caesarCipher("A friend in need is a friend indeed", 20) ➞ "U zlcyhx ch hyyx cm u zlcyhx chxyyx"</code><br/><br/>
 Notes<br/>
 All test input will be a valid ASCII string.

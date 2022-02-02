@@ -57,6 +57,10 @@
   </tr>
   <tr align="left">
     <td>10</td>
+    <td><a href="/src/Caesers%20Cipher">Caeser's Cipher</a></td>
+  </tr>
+  <tr align="left">
+    <td>11</td>
     <td>
       <a href="/src/Choose%20your%20own%20adventure%20again">Choose your own adventure again</a>
     </td>
