@@ -65,6 +65,12 @@
       <a href="/src/Choose%20your%20own%20adventure%20again">Choose your own adventure again</a>
     </td>
   </tr>
+  <tr align="left">
+    <td>12</td>
+    <td>
+      <a href="/src/Hidden%20Anagram">Hidden Anagram</a>
+    </td>
+  </tr>
 </table>
   
 
