@@ -71,6 +71,12 @@
       <a href="/src/Hidden%20Anagram">Hidden Anagram</a>
     </td>
   </tr>
+  <tr align="left">
+    <td>13</td>
+    <td>
+      <a href="/src/Sum%20Square%20Difference">Sum Square Difference</a>
+    </td>
+  </tr>
 </table>
   
 
