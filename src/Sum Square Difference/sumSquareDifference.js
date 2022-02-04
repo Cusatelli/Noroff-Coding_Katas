@@ -22,5 +22,15 @@ function sumSquareDifference(range, exponent = 2) {
     return sum;
 }
 
+function optimizedSumSquareDifference(range, exponent = 2) {
+    const sumOfSquare = (range * (range + 1) * (exponent*range + 1) / 6);
+    const squareOfSum = (((range**exponent) * (range + 1)**exponent) / 4);
+    const sum = squareOfSum - sumOfSquare;
+
+    console.log(`\nOptimized\nSum           (range: ${range}): `, sum);
+    return sum;
+}
+
 console.log("%c\nSum square difference", "color:green; font-size: 1rem");
 sumSquareDifference(100);
+optimizedSumSquareDifference(100);
