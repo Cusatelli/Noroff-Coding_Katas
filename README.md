@@ -77,6 +77,12 @@
       <a href="/src/Sum%20Square%20Difference">Sum Square Difference</a>
     </td>
   </tr>
+  <tr align="left">
+    <td>14</td>
+    <td>
+      <a href="/src/10%20001st%20prime">10 001st prime</a>
+    </td>
+  </tr>
 </table>
   
 
