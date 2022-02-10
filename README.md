@@ -83,6 +83,12 @@
       <a href="/src/10%20001st%20prime">10 001st prime</a>
     </td>
   </tr>
+  <tr align="left">
+    <td>14</td>
+    <td>
+      <a href="/src/Hitting%20the%20Jackpot">Hitting the Jackpot</a>
+    </td>
+  </tr>
 </table>
   
 
