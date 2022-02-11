@@ -13,7 +13,11 @@ function isValidIP(string = "") {
     }
 
     for (let index = 0; index < stringAsArray.length; index++) {
-        if (equalsZero(stringAsArray[index][0])) {
+        const octet = stringAsArray[index];
+        if(!isInRange(octet)) {
+            return false;
+        }
+        if (equalsZero(octet[0])) {
             return false;
         }
     }
@@ -30,7 +34,16 @@ function asArray(input) {
     return input.split('.');
 }
 
+function isInRange(input) {
+    const inputAsNumber = parseInt(input);
+    if(inputAsNumber <= 256 && inputAsNumber >= 0) {
+        return true;
+    }
+    return false;
+}
+
 console.log("%c\nIPv4 Validation", "color:green; font-size: 1rem");
+console.log(isValidIP("123.456.78.92"));     // ➞ false
 console.log(isValidIP("1.2.3.4"));           // ➞ true
 console.log(isValidIP("1.2.3"));             // ➞ false
 console.log(isValidIP("1.2.3.4.5"));         // ➞ false
