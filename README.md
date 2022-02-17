@@ -104,6 +104,12 @@
   <tr align="left">
     <td>18</td>
     <td>
+      <a href="/src/Fair%20Play">Fair Play</a>
+    </td>
+  </tr>
+  <tr align="left">
+    <td>19</td>
+    <td>
       <a href="/src/Above%20Average">Above Average</a>
     </td>
   </tr>
